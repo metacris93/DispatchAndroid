@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">Dispatchsystem</string>
+    <string name="app_name">Stores</string>
+    <string name="order_view">Orders</string>
 </resources>

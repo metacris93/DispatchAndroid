@@ -2,12 +2,13 @@ package com.appandroid.dispatchsystem.Model
 
 import com.google.gson.annotations.SerializedName
 
-data class Store(
+data class Order(
     @SerializedName("id")
-    val id: Int,
+    var id: Int,
     @SerializedName("lat")
-    val lat: Float,
+    var lat: Float,
     @SerializedName("lng")
-    val lng: Float,
-    @SerializedName("name")
-    val name: String)
+    var lng: Float,
+    @SerializedName("description")
+    var description: String
+)

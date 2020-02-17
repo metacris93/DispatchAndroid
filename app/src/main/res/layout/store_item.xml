@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent" android:layout_height="match_parent">
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:padding="8dp"
-        android:layout_margin="4dp">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    android:layout_margin="4dp">
         <ImageView
             android:id="@+id/storeImageView"
             android:layout_width="50dp"
@@ -14,15 +12,13 @@
             android:src="@drawable/ic_store_black_24dp">
         </ImageView>
         <TextView
-            android:id="@+id/txtName"
-            android:layout_width="wrap_content"
+            android:id="@+id/txtStoreName"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="line 1"
             android:layout_toEndOf="@id/storeImageView"
             android:textColor="@android:color/black"
             android:textSize="18sp"
-            android:textStyle="bold"
-            >
+            android:textStyle="bold">
         </TextView>
-    </RelativeLayout>
-</androidx.cardview.widget.CardView>
+</RelativeLayout>
